@@ -8,7 +8,6 @@ function modolo(x) {
   } else {
     return 1;
   }
-
 }
 modolo(-209309390);
 // function solution(X) {
@@ -34,16 +33,16 @@ function solution(A) {
     // zero-indexed array A of N int, largest int.
     // [1,2,3] = 3
     let greatest = 0;
-    let arg = A;
-    for (i = 0; i < arg.length; ++i) {
-      if (greatest < arg[i]) {
-        greatest = arg[i];
+    let arr = A;
+    for (i = 0; i < arr.length; ++i) {
+      if (greatest < arr[i]) {
+        greatest = arr[i];
       }
     }
     return greatest;
 }
-let arg = [1,2,20,22,5];
-solution(arg)
+let array = [1,2,20,22,5];
+solution(array)
 
 //======
 
